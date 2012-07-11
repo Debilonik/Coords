@@ -12,5 +12,5 @@ int main(int argc, char *argv[])
     cin >> y >> x;
     double res = c.calc();
     cout << dec << res << endl;
-    return EXIT_SUCCESS;
+    return 0;
 }

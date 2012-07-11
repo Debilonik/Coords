@@ -1,7 +1,7 @@
 #ifndef COORD
 #define COORD
 
-typedef struct Coord{
+struct Coord{
         double x;
         double y;
         //void set (double, double); 
