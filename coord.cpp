@@ -2,6 +2,6 @@
 #include <cmath>
 
 double Coord::calc(void){
-       double b = sqrt( x*x + y*y);
+       double b = sqrt( pow(x, 2) + pow(y, 2));
        return b;
 }
