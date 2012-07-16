@@ -2,8 +2,8 @@
 #define COORD
 
 struct Coord{
-        float x;
-        float y;
+        double x;
+        double y;
         void print (void);
 	void set (double, double);
         double calc (void);
